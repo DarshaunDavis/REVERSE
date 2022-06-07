@@ -30,6 +30,10 @@
                 padding: 0;
             }
 
+            .clearSettings {
+                clear: both;
+            }
+
             #locationHeaderContainer {
                 background-color: #03989E;
                 width: 100%;
@@ -73,6 +77,39 @@
             #locationHeaderMenu a:hover {
                 text-decoration: underline;
             }
+
+            #fullbodyContainer {
+                background-color: #056569;
+                width: 100%;
+            }
+
+            #bodyContainer {
+                width: 800px;
+                margin: 0 auto;
+            }
+
+            #welcomeContainer {
+                font-size: 20px;
+                margin-left: 15px;
+            }
+
+            #bodyLeftContainer {
+                    width: 460px;
+                    float: left;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    height: 100px;
+                    border-right: 2px solid #ccc;
+                    padding-right: 10px;
+            }
+
+            #bodyRightContainer {
+                    width: 260px;
+                    float: right;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    height: 100px;
+            }
         
         </style>
 
@@ -91,12 +128,15 @@
 
             <div id="locationHeader">
 
-                <hi id="locationHeaderText">
+                <h1 id="locationHeaderText">
                     Dashboard
-                </hi>
+                </h1>
 
             </div>            
 
+        </div>
+        <div class="clearSettings">
+            
         </div>
 
         <div id="locationHeaderMenuContainer">
@@ -116,8 +156,25 @@
             </div>
 
         </div>
+        <div class="clearSettings">
 
-        Welcome to your dashboard!
+        </div>
+                <div id="bodyContainer">
+
+                    <div id="welcomeContainer">
+                        <h3>Welcome to your dashboard, Jane!</h3>
+                    </div>
+
+                    <div id="bodyLeftContainer">
+                        This section is for database queries
+                    </div>
+
+                    <div id="bodyRightContainer">
+                        This section is for the profile
+
+                    </div>
+                
+                </div>
 
     </body>
 </html>
