@@ -2,13 +2,43 @@
 <html>
     <head>
         <meta   charset="utf-8">
-        <base href="https://darshaundavis.tech/reverse-revature…ystem-enterprise/" target="_blank"/>
+        <!--<base href="https://darshaundavis.tech/reverse-revature…ystem-enterprise/" target="_blank"/>-->
         <title>REVERSE - Revature Expense Reimbursement System: Enterprise</title>
         <link rel="stylesheet" href="">
 
         <style type="text/css">
+
             
-        
+            form {
+                border: 3px solid #03989E;
+                max-width: 500px;
+                margin:0 auto;
+                margin-top: 100px;
+            }
+
+            .logoImage {
+                width: 200px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #loginHeader {
+                max-width: 75px;
+                margin:0 auto;
+                margin-top: 10px;
+            }
+            
+            .loginContainer {
+                padding: 16px;
+                max-width: 175px;
+                margin:0 auto;
+            }
+
+            .forgotPassword {
+                font-size: 12px;
+                padding-left: 10px;
+            }
 
         </style>
 
@@ -20,25 +50,27 @@
     </head>
     <body>
         <div>
-            <h2>Sign In</h2>
+            
             
             <form method="post">
                 <div class="logo">
-                    <img src="">                    
+                    <img src="images/reverselogo.jpg" class="logoImage">                    
                 </div>
+
+                <h2 id="loginHeader">Sign In</h2>
                 
-                <div  class="">
-                    <label for="enterEmail"><b>Email Address</b></label>
-                    <input type="email" class="" placeholder="Please enter your email" name="enterEmail" required>
+                <div  class="loginContainer">
+                    <p><label id="enterEmail"><b>Email Address</b></label><br>
+                    <input type="email" class="" placeholder="Please enter your email" name="enterEmail" required autofocus></p>
                     
-                    <label for="enterPassword"><b>Password</b></label>
-                    <input type="password" class="" placeholder="Please enter your password" name="enterPassword" required>
+                    <p><label id="enterPassword"><b>Password</b></label>
+                    <input type="password" class="" placeholder="Please enter your password" name="enterPassword" required></p>
                     
-                    <label>
+                    <p><label>
                         <input type=checkbox name="rememberMe" value="1"> Remember Me
                     </label>
-                    <input type="submit" value="Log in">
-                    <span class="forgotPassword"><a href="">Forgot Password?</a></span>
+                    <p><button type="submit" formaction="dashboard.html">Log in</button>
+                    <span class="forgotPassword"><a href="">Forgot Password?</a></span></p>
                 </div>
             </form>
         </div>
