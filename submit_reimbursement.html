@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta   charset="utf-8">
+        <!--<base href="https://darshaundavis.tech/reverse-revature…ystem-enterprise/" target="_blank"/>-->
+        <title>Submit Reimbursements - REVERSE - Revature Expense Reimbursement System: Enterprise</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <style type="text/css">
+            /* Empty Stylesheet tags in case Internal CSS is needed  */ 
+        
+        </style>
+
+        <script type="text/javascript">
+            
+        </script>
+    </head>
+    <body>
+        <div id="topLogo">
+            <img id="logoDimens" src="images/reverselogo.png">
+            <span id="logOutDimens"><a href="index.html">Logout</a></span>
+
+        </div>
+
+        <div id="locationHeaderContainer">
+
+            <div id="locationHeader">
+
+                <h1 id="locationHeaderText">
+                    Dashboard
+                </h1>
+
+            </div>            
+
+        </div>
+        <div class="clearSettings">
+            
+        </div>
+
+        <div id="locationHeaderMenuContainer">
+            
+            <div id="locationHeaderMenu">
+
+                <a href="dashboard.html">Dashboard</a>
+
+                <a href="submit_reimbursement.html">Submit Reimbursement</a>
+
+                <a href="pending_reimbursement.html">Pending Reimbursements</a>
+
+                <a href="resolved_reimbursement.html">Resolved Reimbursements</a>
+
+                <a href="profile.html">Personal Information</a>
+
+            </div>
+
+        </div>
+        <div class="clearSettings">
+
+        </div>
+                <div id="bodyContainer">
+
+                    <div id="welcomeContainer">
+                        <h3>Submit Reimbursements</h3>
+                    </div>
+
+                    <div id="bodyLeftContainer">
+                        
+                        <form id="submitReimbursementForm" method="post">
+                            <div  class="submitReimbursementContainer">
+                                <p>Submit your REVERSE reimbursements for approval</p>
+                                <p><label id="enterDate"><b>Date of expense</b></label><br>
+                                <input type="date" class="" placeholder="Please enter expense date" name="enterDate" required autofocus></p>
+                                <p><label id="enterAmount"><b>Amount of expense</b></label><br>
+                                <input type="text" class="" placeholder="Please enter expense amount" name="enterAmount" required autofocus></p>
+                                <p><label id="enterPurpose"><b>Purpose of expense</b></label><br>
+                                <textarea class="" placeholder="Please enter expense purpose" name="enterPurpose" required autofocus></textarea>    
+                                <p><label for="expense_category"><b>Please select expense category</b></label><br>
+                                <select id="expense_category" name="expense_category">
+                                    <option value="Business Travel">Business Travel</option>
+                                    <option value="Business use of Personal Vehicle">Business use of Personal Vehicle</option>
+                                    <option value="Education Expenses">Education Expenses</option>
+                                    <option value="Entertainment">Entertainment</option>
+                                    <option value="Meals">Meals</option>
+                                    <option value="Professional Dues">Professional Dues</option>
+                                    <option value="Tools and Supplies">Tools and Supplies</option>
+                                    <option value="Other">Other</option>
+                                </select></p>
+                                <label for="expense_receipt" name="expense_receipt"><b>Please attach your receipt (Optional)</b></label>
+                                <input type="file" id="receipt" name="expense_receipt">
+                                <p><button id="submitButton" type="submit" formaction="">Submit</button>
+                                    <button id="resetButton" type="reset" formaction="">Reset</button></p>
+                                        
+                                
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="bodyRightContainer">
+                        This section is for the profile
+
+                    </div>
+                
+                </div>
+
+    </body>
+</html>

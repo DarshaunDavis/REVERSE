@@ -1,0 +1,173 @@
+/*Login Page Styles */
+form {
+    border: 3px solid #03989E;
+    max-width: 500px;
+    margin:0 auto;
+    margin-top: 100px;
+}
+
+.logoImage {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginHeader {
+    max-width: 75px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.loginContainer {
+    padding: 16px;
+    max-width: 175px;
+    margin:0 auto;
+}
+
+.forgotPassword {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+/*Page Header Styles */
+#topLogo {
+    width: 800px; 
+    margin:0 auto;
+    height: 100px;
+}
+
+#logoDimens {
+    height: 100px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+#logOutDimens {
+    float: right;
+    position: relative;
+    font-weight: bold;
+    top: 40px;
+}
+
+#logOutDimens a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.clearSettings {
+    clear: both;
+}
+
+#locationHeaderContainer {
+    background-color: #03989E;
+    width: 100%;
+    height: 80px;
+}
+
+#locationHeader {
+    
+    width: 800px; 
+    margin:0 auto;
+}
+
+#locationHeaderText {
+    padding:0;
+    margin:0;
+    color: white;
+    font-size: 70px;
+}
+
+#locationHeaderMenuContainer {
+    background-color: #056569;
+    width: 100%;
+}
+
+#locationHeaderMenu {
+    background-color: #056569;
+    width: 800px;
+    margin: 0 auto;
+    height: 30px;
+    padding-top: 10px;
+
+}
+
+#locationHeaderMenu a {
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    padding:0 8px;
+}
+
+#locationHeaderMenu a:hover {
+    text-decoration: underline;
+}
+
+/*Page Body Styles */
+#fullbodyContainer {
+    background-color: #056569;
+    width: 100%;
+}
+
+#bodyContainer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#welcomeContainer {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#bodyLeftContainer {
+        width: 460px;
+        float: left;
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 100px;
+        border-right: 2px solid #ccc;
+        padding-right: 10px;
+}
+
+#bodyRightContainer {
+        width: 260px;
+        float: right;
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 100px;
+}
+
+/*Forgot Password Page Styles */
+#forgotPasswordHeader {
+    max-width: 150px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.loginContainer {
+    padding: 16px;
+    max-width: 175px;
+    margin:0 auto;
+}
+
+.forgotPassword {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+/*Submit Reimbursement Page Styles */
+#submitReimbursementForm {
+    border: 3px solid #03989E;
+    max-width: 400px;
+    margin:0 auto;
+}
+
+.submitReimbursementContainer {
+    padding: 16px;
+    max-width: 300px;
+    margin:0 auto;
+}
